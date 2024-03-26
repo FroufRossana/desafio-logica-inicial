@@ -1,0 +1,40 @@
+// 1 Desafio Classificador de nível de Herói
+
+let nomeHeroi = ("Super Rooh");
+let xpDoHeroi = 20000
+
+if (xpDoHeroi <=1000){
+    console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Ferro")
+}
+    else {
+        if (xpDoHeroi<=2000){
+        console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Bronze")
+    }
+        else{
+            if (xpDoHeroi<=5000){
+            console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Prata")
+        }
+            else{
+                if (xpDoHeroi<=7000){
+                console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Ouro")
+            }
+
+                 else{
+                 if (xpDoHeroi<=8000){
+                 console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Platina")
+                }
+
+                     else{
+                     if (xpDoHeroi<=9000){
+                     console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Ascendente")
+                 }
+
+                         else{
+                         if (xpDoHeroi<=10000){
+                         console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Imortal")
+                     }
+                            else{
+                         console.log("A heroína " + nomeHeroi + " está no nível de XP " + xpDoHeroi + " que equivale ao elo de Radiante")
+}
+
+                         }}}}}}         
